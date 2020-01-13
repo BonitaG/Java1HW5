@@ -1,16 +1,6 @@
 package com.company;
 
-public class MagicDoor {
-    int health;
-    int damage;
-    String superAbility;
-
-
-    public MagicDoor (int health, int damage, String superAbility) {
-        this.health = health;
-        this.damage = damage;
-        this.superAbility = superAbility;
-    }
+public class MagicDoor{
 
     public Hero[] creation() {
         Hero[] heroes = new Hero[4];
@@ -25,7 +15,7 @@ public class MagicDoor {
         return heroes;
 
     }
-    }
+}
 
 
 

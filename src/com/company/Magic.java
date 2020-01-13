@@ -1,6 +1,6 @@
 package com.company;
 
-public class Magic {
+public class Magic{
     int health;
     int damage;
     String superAbility;
